@@ -1,0 +1,14 @@
+# Hardware Build Outputs
+runs/
+openlane/*/
+build/
+
+# Simulation & Waveforms (The "Trash" files)
+*.vcd
+*.log
+dump.vcd
+
+# Tool-specific
+*.tmp
+*.bak
+.magicrc
